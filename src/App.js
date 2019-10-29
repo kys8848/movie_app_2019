@@ -35,6 +35,7 @@ componentDidMount(){ //async를 붙이는 이유 : componentDidMount가 완전�
           <span className="loader_text">Loading..</span>
         </div>  
       : (
+        
         <div className="movies">
          {movies.map(movie => (
               <Movie
